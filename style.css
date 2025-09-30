@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.title {
+    font-family: "Jolly Lodger";
+}
+
+body {
+    background-color: #1e0f2f;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #c9a0ff;
+    margin-top: 30px;
+}
+
+.jogo-memoria {
+    width: 600px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-gap: 15px;
+    justify-content: center;
+}
+
+.carta {
+    background-color: #FFE3BD;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.Buuhh {
+    background-color: #8958FF;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.p-buuhh{
+    height: 44px;
+}
