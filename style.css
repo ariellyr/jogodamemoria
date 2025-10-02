@@ -16,9 +16,14 @@ body {
 }
 
 h1 {
-    font-size: 3em;
-    color: #c9a0ff;
-    margin-top: 30px;
+    color: #FFF;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #8958FF;
+    font-family: "Jolly Lodger";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .jogo-memoria {
@@ -39,16 +44,12 @@ h1 {
     cursor: pointer;
 }
 
-.card:hover {
+.carta:hover {
     transform: scale(1.05);
 }
 
-.card img {
-    width: 100%;
-    height: auto;
-}
-
-.Buuhh {
+.Buuhh{
+    transform: scale(1.05);
     background-color: #8958FF;
     border-radius: 10px;
     padding: 10px;
@@ -58,6 +59,15 @@ h1 {
     font-size: 40px;
 }
 
-.p-buuhh{
-    height: 44px;
+Button{
+    font-family: "Jolly Lodger";
+    background-color: #8958FF;
+    border: 0px;
+    font-size: 72px;
+    color: white;
+    margin-top: 40px;
+}
+
+button:hover{
+    transform: scale(1.05);
 }
